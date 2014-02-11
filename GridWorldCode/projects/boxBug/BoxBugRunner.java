@@ -40,3 +40,8 @@ public class BoxBugRunner
 }
 
 
+/*
+To make another BoxBug, define it with a given 
+length, then add to the world using world.add(bug)
+or world.add(new Location(x, y), bug).
+*/
