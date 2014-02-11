@@ -22,7 +22,7 @@ public class ZBug extends Bug
      */
     public void act()
     {
-		while (turns <= 2) {
+		if (turns <= 2) {
 			if (steps < sideLength && canMove())
 			{
 				move();
